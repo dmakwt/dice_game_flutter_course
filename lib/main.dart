@@ -32,8 +32,7 @@ class _MyAppState extends State<MyApp> {
           num1 = Random().nextInt(6) + 1;
           num2 = Random().nextInt(6) + 1;
 
-          print(num1);
-          print(num2);
+          setState(() {});
         },
       ),
     );
